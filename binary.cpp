@@ -63,15 +63,16 @@ int main()
 Enter the no.of testcases
 2
 Enter the no.of elements and the key
-3 6
+5 6
 Enter the elements of the array
-1 2 3
+1 2 3 4 6
 Enter the no.of elements and the key
-4 2
+5 2
 Enter the elements of the array
-1 2 3 4
--1
+1 3 4 5 6
 1
+-1
+
 
 */
 
