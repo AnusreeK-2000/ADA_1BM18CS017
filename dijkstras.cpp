@@ -39,9 +39,10 @@ void dijkstra(int src)
 	}
 	cout<<"Shortest paths to all other vertices from  "<<src<<" is "<<endl;
 	cout<<"Vertices\tDistance from source"<<endl;
-	for(int i=1;i<n;i++)
+	for(int i=0;i<n;i++)
 	{
-		cout<<i<<"\t"<<dist[i]<<endl;
+		if(i!=src)
+			cout<<i<<"\t\t"<<dist[i]<<endl;
 	}
 }
 
@@ -75,10 +76,11 @@ Enter the source vertex
 0
 Shortest paths to all other vertices from  0 is 
 Vertices	Distance from source
-1	3
-2	7
-3	5
-4	9
+1		3
+2		7
+3		5
+4		9
+
 */
 	
 	
